@@ -1,4 +1,4 @@
-package main
+package DayOne
 
 import (
 	"testing"
@@ -22,7 +22,6 @@ func DayOne(input []uint) uint {
 
 	for _, i := range input {
 		if firstIter {
-			print("Is first iteration")
 			firstIter = false
 			prev = i
 			continue
